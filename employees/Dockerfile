@@ -5,6 +5,7 @@
 #FROM python:3.8-alpine
 FROM python:3.8-slim
 WORKDIR /app
+COPY . /app
 # copy the requirements file into the image
 #COPY ./requirements.txt /app/requirements.txt
 #COPY ./employees.py /app/employees.py
