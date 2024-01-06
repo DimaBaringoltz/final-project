@@ -41,7 +41,7 @@ pipeline {
             }
 
             steps{
-                sh 'cd /app/final-project/employees'
+                sh 'cd /employees'
                 sh 'python -m unitest.py'
 
 
