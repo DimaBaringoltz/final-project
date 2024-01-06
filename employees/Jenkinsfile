@@ -18,7 +18,7 @@ pipeline {
         stage('build-docker') {
             agent any
             steps {
-                sh 'cd final-project/employees'
+                sh 'cd /employees'
                 sh 'docker build . project-tl:1'
             }
         }
