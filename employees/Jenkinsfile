@@ -6,7 +6,7 @@ pipeline {
             steps {
                 script {
                     // Clone the Git repository
-                    checkout([$class: 'GitSCM', branches: [[name: '*/main']], userRemoteConfigs: [[url: 'https://github.com/edk2010/final-project.git']]])
+                    checkout([$class: 'GitSCM', branches: [[name: '*/main']], userRemoteConfigs: [[url: 'https://github.com/DimaBaringoltz/final-project.git']]])
                 }
             }
         }
